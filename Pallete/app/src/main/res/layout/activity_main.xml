@@ -8,7 +8,7 @@
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:fitsSystemWindows="false">
 
 
@@ -22,6 +22,7 @@
             android:layout_marginLeft="132dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
+            android:layout_marginBottom="70dp"
             android:clipChildren="false"
             android:clipToPadding="false"
             android:divider="@android:color/transparent"
@@ -53,11 +54,19 @@
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:elevation="10dp"
-            app:elevation="10dp"
+            android:src="@drawable/a2"
             app:backgroundTint="@null"
-            app:pressedTranslationZ="2dp"></android.support.design.widget.FloatingActionButton>
+            app:elevation="10dp"
+            app:fabCustomSize="200dp"
+            app:fabSize="normal"
+            app:maxImageSize="200dp"
+            app:pressedTranslationZ="2dp">
+
+
+        </android.support.design.widget.FloatingActionButton>
 
     </android.support.design.widget.CoordinatorLayout>
+
 
 
 
